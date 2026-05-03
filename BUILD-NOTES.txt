@@ -1,0 +1,25 @@
+FBP Reselling App — GitHub Ready Light Build v5
+
+This build directly edits the app source files so the background is no longer black.
+
+Confirmed changes:
+- index.html base CSS now uses pink/gray background directly
+- listing-wizard.html base CSS now uses pink/gray background directly
+- style-cards.html base CSS now uses pink/gray background directly
+- fbp-skin.css includes final hard override for light pink/gray theme
+- stylesheet links include cache buster: ?v=5-light-pink-gray
+- visible badge added: FBP LIGHT PINK/GRAY BUILD v5
+
+Bug fixes still included:
+- clearStorage() fixed
+- broken internal links fixed
+- stronger Photo Studio included
+- Backup / Restore Inventory included
+- local helper engines included
+
+Run:
+npm install
+npm start
+
+Open:
+http://localhost:5174

@@ -1,0 +1,18 @@
+FBP Pink/Gray Skin Update
+
+This build changes the app away from the black-heavy theme.
+
+Main visual updates:
+- overall background changed to blush pink / soft gray
+- header and nav lightened
+- cards made cream / pale pink for readability
+- buttons changed to rose / soft neutral tones
+- sidebar changed from black-heavy to light gray/pink
+- table surfaces and forms lightened for easier viewing
+
+Bug fixes remain included from prior builds:
+- clearStorage() fixed
+- broken internal links fixed
+- stronger photo studio included
+- backup / restore inventory included
+- local helpers included instead of broken direct browser AI calls

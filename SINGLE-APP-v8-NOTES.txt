@@ -1,0 +1,7 @@
+FBP Single App v8 Notes
+
+Root cause fixed: prior builds used separate page files and links, which caused missing-page errors after upload/deploy.
+
+This build embeds the Dashboard, Listing Wizard, Style Cards, and Photo Studio/Image Generator inside index.html as internal app views.
+
+The visible top tabs now switch views without navigating away from index.html.

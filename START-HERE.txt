@@ -1,0 +1,14 @@
+FBP Reselling App — Stable Single-App v9
+
+How to preview:
+1. Unzip this folder.
+2. Double-click index.html.
+3. Use the top tabs inside the app: Dashboard, Listing Wizard, Style Cards, Photo Studio / Image Generator.
+
+How to upload to GitHub:
+1. Open your GitHub repository.
+2. Upload all files from this unzipped folder.
+3. Make sure index.html sits at the repo root.
+
+No terminal required.
+No npm required for preview.

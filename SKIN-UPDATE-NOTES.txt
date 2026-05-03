@@ -1,0 +1,26 @@
+FBP Skin Update v2 — Real Applied Skin
+
+This version includes the prior functionality fixes AND a visibly updated Funky Black Poppy brand-board skin.
+
+Functional fixes included:
+- Fixed Listing Wizard clearStorage() JavaScript syntax error.
+- Fixed old internal filenames / navigation targets.
+- Merged the stronger Photo Studio file.
+- Added Backup JSON and Restore Inventory.
+- Replaced browser-side Claude dependency with local built-in listing/SEO helpers.
+- Added package.json and START-HERE.txt for local running.
+
+Visual skin updates in this v2 package:
+- Added visible FBP brand hero to index.html.
+- Added blush-pink app background.
+- Added black header/nav with plaid accenting.
+- Added cream cards with black typography.
+- Added crown, 11:11, butterfly, heart, and safety-pin brand footer language.
+- Appended stronger CSS overrides in fbp-skin.css so the change is not just theoretical.
+
+Run:
+npm install
+npm start
+
+Open:
+http://localhost:5174

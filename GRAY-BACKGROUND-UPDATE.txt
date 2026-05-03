@@ -1,0 +1,9 @@
+FBP Soft Gray Update
+
+This build shifts the overall app background from pink to soft gray so pink text and accents are easier to read.
+
+Main updates:
+- gray page backgrounds in source HTML files
+- lighter neutral header/nav/card surfaces
+- pink kept mostly as accent, not as main page field
+- GitHub-ready root structure preserved

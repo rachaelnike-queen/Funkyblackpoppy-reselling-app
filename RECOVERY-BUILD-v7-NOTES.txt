@@ -1,0 +1,18 @@
+FBP Recovery Build v7
+
+This build responds to the broken/unreadable v6 test.
+
+What changed:
+- App background changed to dark gray / graphite for readability.
+- Text and table contrast increased.
+- Pink is now an accent, not the main background.
+- Main navigation now includes direct links to:
+  - Listing Wizard
+  - Style Cards
+  - Photo Studio / Image Generator
+- Added a quick launch strip under the brand hero with the same direct links.
+- Updated CSS cache buster to v7-recovery-dark-gray.
+- Added visible build badge: FBP RECOVERY BUILD v7.
+
+Known note:
+- This is still a static browser app. Final browser testing is needed with your real CSV and photos.

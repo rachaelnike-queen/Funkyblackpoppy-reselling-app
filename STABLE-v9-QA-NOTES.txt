@@ -1,0 +1,24 @@
+FBP Stable Single-App v9 QA Notes
+
+Purpose:
+This build keeps the latest single-app direction but stabilizes it so the major tools are reachable from index.html instead of separate missing page links.
+
+Included internal app views:
+- Dashboard
+- Listing Wizard
+- Style Cards
+- Photo Studio / Image Generator
+
+Confirmed by static checks:
+- index.html contains embedded internal views for dashboard/listing/stylecards/photo.
+- clearStorage() is present in the Listing Wizard code.
+- JavaScript syntax checks passed for the main wrapper and embedded app views.
+- Old broken filename references were not found in the embedded app views.
+- Google / Sheets helper text exists in the dashboard/listing flow.
+
+What still needs browser testing with your data:
+- Upload a real CSV.
+- Try Google Sheets copy/export helper.
+- Save one fake listing.
+- Open Photo Studio with one image.
+- Refresh the browser and confirm saved data remains.
