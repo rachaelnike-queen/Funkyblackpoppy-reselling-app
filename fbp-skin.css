@@ -907,3 +907,17 @@ body::before{
   border:1px solid var(--fbp-r-line) !important;
   text-shadow:none !important;
 }
+
+
+/* FULL WIDTH SINGLE APP BUILD v10 */
+html, body, main, .app, .panel, .editor-container, .canvas-area, .app-shell, .frame-wrap {
+  width:100% !important;
+  max-width:none !important;
+}
+.panel, main, .app, .editor-container, .fbp-brand-hero, .fbp-quick-launch {
+  max-width:none !important;
+  margin-left:0 !important;
+  margin-right:0 !important;
+}
+.app-frame { width:100% !important; max-width:none !important; }
+body::before { content:'FBP FULL WIDTH BUILD v10' !important; }

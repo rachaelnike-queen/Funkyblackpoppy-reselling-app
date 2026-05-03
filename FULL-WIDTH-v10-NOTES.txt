@@ -1,0 +1,5 @@
+FBP Full Width Single App v10
+
+This build removes the narrow/75% layout cap. The main app shell and embedded internal views now use the full browser width.
+
+Preview: unzip and double-click index.html.
